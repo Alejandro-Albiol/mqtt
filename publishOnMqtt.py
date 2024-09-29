@@ -1,7 +1,7 @@
 import paho.mqtt.client as mqtt
 import time
 client = mqtt.Client()
-host = "192.168.100.15"
+host = "IP"
 topic = "demo"
 message = "Test 1"
 PORT = 1883
